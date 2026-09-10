@@ -1,0 +1,21 @@
+BXH ARENA v13.24.9 部署說明
+
+1. 將本資料夾的 index.html 部署到：
+   BXH_ARENA_v13.24.9_COMPLETE/index.html
+
+2. 首次建立固定 OG 分享圖時，請另外在 GitHub Pages 儲存庫根目錄建立：
+   BXH_ARENA_SHARE/
+   並上傳：
+   bxh-arena-og-image.jpg
+
+   完成後應可直接開啟：
+   https://memoryalwaysbibo.github.io/BXH_ARENA_SHARE/bxh-arena-og-image.jpg
+
+3. 後續版本不需重複上傳分享圖，除非要更換圖片。
+
+4. Firestore Rules：沿用 v13.24.6，本版本不需重新發布 Rules。
+
+本版重點：
+- 玩家模式統一身份晶片，下拉整合會員資料／管理模式／返回首頁／登出。
+- 手機報名管理改為卡片式名單，詳細資料可展開。
+- OG 分享圖改用固定永久網址，不再綁版本資料夾。
